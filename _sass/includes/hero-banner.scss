@@ -1,0 +1,44 @@
+.banner{
+  background-color: black;
+}
+
+.background{
+height: 40em;
+border: solid black 2px;
+margin: 0 auto;
+color:red;
+background-image: url('https://static1.squarespace.com/static/53603c8de4b0e6ed7cf69eb4/t/54afe770e4b0fce9b5dae81f/1420814303054/');
+background-repeat: no-repeat;
+background-position:center;
+
+}
+.pop{
+  width: 60%;
+  margin: 0 auto;
+  background-color:rgba(52, 52, 52, .5);
+  position: relative;
+  top: 20%;
+}
+.background h1, .background h2{
+  margin: 0;
+  margin-bottom: .3em;
+  font-size: 7em;
+  text-align: center;
+
+}
+
+.about h3 {
+  color: red;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 2em;
+}
+
+.about p {
+  text-align: center;
+  color: white;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 2em;
+  height: 12em;
+}

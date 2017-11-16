@@ -17,3 +17,12 @@ button {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}

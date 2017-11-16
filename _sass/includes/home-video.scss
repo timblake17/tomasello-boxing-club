@@ -1,0 +1,34 @@
+.videos-container{
+  background: black;
+  float: left
+}
+
+.video-side{
+  width: 50%;
+  float: left;
+  border: solid 2px red;
+  padding-top: 4em; 
+}
+
+.video-side h2{
+  text-align: center;
+  color: red;
+  font-size: 2.25em;
+}
+
+.video-side p {
+  color: white;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  height: 7em;
+  padding-top: 1em;
+
+}
+.video{
+  width: 80%;
+  border: red solid 2px;
+  margin: 0 auto;
+  height: 15em;
+}

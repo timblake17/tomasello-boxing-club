@@ -6,8 +6,7 @@
 .video-side{
   width: 50%;
   float: left;
-  border: solid 2px red;
-  padding-top: 4em; 
+  padding-top: 4em;
 }
 
 .video-side h2{
@@ -27,8 +26,20 @@
 
 }
 .video{
-  width: 80%;
-  border: red solid 2px;
+  width: 60%;
   margin: 0 auto;
   height: 15em;
+}
+
+.video iframe{
+
+  width: 100%;
+  height: 15em;
+}
+
+@media only screen and (max-width: 768px){
+  .video-side{
+    float: none;
+    width: 100%;
+  }
 }

@@ -1,24 +1,26 @@
 .red-container{
   background-color: red;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  clear: both;
 }
 
-.open-daily{
+.black-container {
   background-color: black;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 
 }
 
-.open-daily h2{
+.black-container h2{
     font-size: 4em;
     color: red;
     text-align: center;
     margin: 0 auto;
+    padding-top: 1em;
 }
 
-.open-daily h3{
+.black-container h3{
   text-align: center;
   color: white;
   font-size: 4em;
@@ -34,4 +36,19 @@ padding-bottom: 5em;
   width: 40%;
   border: red solid 2px;
   height: 20em;
+}
+
+@media only screen and (max-width: 768px){
+.black-container h3{
+  font-size: 3em;
+}
+
+.photo-wrapper{
+  display: block;
+
+}
+
+.photo{
+  width: 100%;
+}
 }

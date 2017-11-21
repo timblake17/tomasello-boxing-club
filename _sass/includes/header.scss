@@ -27,6 +27,7 @@ nav ul li {
   float: left;
   margin: 0 15px;
   height: 1.5em;
+  border-bottom: red 2px solid;
 }
 
 nav ul li a {
@@ -38,3 +39,122 @@ nav ul span {
   color: red;
   font-size: 26px;
 }
+/////////////////////////hamburger
+@media(max-width: 680px){
+  nav ul li{
+    font-size: 1em;
+    margin: 0;
+  }
+
+  nav ul span {
+    font-size: 1em;
+  }
+
+}
+
+
+// @media(max-width: 680px){
+//   nav ul li a {
+//     float:none;
+//     width: 100%;
+//     display:inline-block;
+//     border-bottom: solid black 2px;
+
+  // }
+  // nav{
+  //   display: none;
+  // }
+
+  /*//////hamburger/////*/
+
+  //
+  // header::after{
+  //   content: '';
+  //   clear: both;
+  //   display: block;
+  // }
+
+  // .site-nav{
+  //   position: absolute;
+  //   background: black;
+  //   top: 100%;
+  //   right: 0%;
+  //   overflow: hidden;
+  //   clear: both;
+  // }
+  //
+  // .site-nav ul {
+  //   margin: 0;
+  //   padding: 0;
+  //   list-style: none;
+  // }
+  //
+  // .site-nav li{
+  //   border-bottom: 2px solid black;
+  //   height: 5em;
+  //   background-color: grey;
+  //   text-align: center;
+  //   padding: 2em;
+  //   width: 95%;
+  //
+  //
+  // }
+
+  // .site-nav a {
+  //   font-size: 2rem;
+  //   text-align: center;
+  //   color:white;
+  //   text-decoration: none;
+  //   display: block;
+  //   padding: 2.5em 6em;
+  //   text-transform: uppercase;
+  //
+  // }
+
+  // .menu-toggle{
+  //   background: black;
+  //   padding: 1em;
+  //   position: absolute;
+  //   right: 1em;
+  //   top: .75em;
+  //   right: .75em
+  //
+  // }
+  //
+  //
+  // .hamburger,.hamburger2, .hamburger3{
+  //   content: '';
+  //   display: block;
+  //   background: white;
+  //   height: .3em;
+  //   width: 2.5em;
+  //   border-radius: 3px;
+  //   transition: all ease-in-out 500ms;
+  // }
+  //
+  // .hamburger{
+  //   transform: translateY(-5px);
+  // }
+
+  // .hamburger3{
+  //   transform: translateY(5px);
+  // }
+
+//   .siteNavOpen{
+//     height: auto;
+//     margin-top: -209px;
+//   }
+//
+//   .open .hamburger2{
+//     transform: rotate(45deg);
+//
+//   }
+//   .open .hamburger{
+//     opacity: 0;
+//
+//   }
+//   .open .hamburger3{
+//     transform: translateY(-3px) transform: rotate(-50deg);
+//
+//   }
+// }

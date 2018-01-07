@@ -1,44 +1,40 @@
-.videos-container{
+.featured-videos-section{
   background: black;
   float: left
 }
 
-.video-side{
+.featured-videos-media-wrapper{
   width: 50%;
   float: left;
-  padding-top: 4em;
+  padding: 50px 0 0 0;
 }
 
-.video-side h2{
+.featured-videos-content-wrapper h2{
   text-align: center;
   color: red;
-  font-size: 2.25em;
+  font-size: 36px;
+  padding: 30px;
 }
 
-.video-side p {
+.featured-videos-content-wrapper p {
   color: white;
   text-align: center;
-  width: 80%;
-  margin: 0 auto;
-  font-size: 1.5em;
-  height: 7em;
-  padding-top: 1em;
-
+  font-size: 24px;
+  padding: 30px;
 }
 .video{
   width: 60%;
   margin: 0 auto;
-  height: 15em;
+  height: 240px;
 }
 
 .video iframe{
-
   width: 100%;
-  height: 15em;
+  height: 240px;
 }
 
 @media only screen and (max-width: 768px){
-  .video-side{
+  .featured-videos-media-wrapper{
     float: none;
     width: 100%;
   }

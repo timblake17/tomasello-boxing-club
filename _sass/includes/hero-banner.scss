@@ -1,80 +1,52 @@
-.banner{
+.hero-banner{
   background-color: black;
-  padding-top: 6em;
+  padding: 75px 0 0 0;
 }
 
-.background{
-height: 40em;
-border: solid black 2px;
-margin: 0 auto;
-color:red;
-background-image: url('https://static1.squarespace.com/static/53603c8de4b0e6ed7cf69eb4/t/54afe770e4b0fce9b5dae81f/1420814303054/');
-background-repeat: no-repeat;
-background-position:center;
-
+.hero-banner-row{
+  color:red;
+  height: 100vh;
+  display: flex;
+  background-image: url('https://static1.squarespace.com/static/53603c8de4b0e6ed7cf69eb4/t/54afe770e4b0fce9b5dae81f/1420814303054/');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
 }
-.pop{
-  width: 60%;
-  margin: 0 auto;
+
+.title-content-wrapper{
+  margin: auto;
   background-color:rgba(52, 52, 52, .5);
-  position: relative;
-  top: 20%;
+  padding: 0 50px;
 }
-.background h1, .background h2{
-  margin: 0;
-  margin-bottom: .3em;
-  font-size: 7em;
+
+.title-content-wrapper h1{
+  font-size: 130px;
   text-align: center;
-
 }
 
-.about h3 {
+.hero-banner-content-wrapper{
+  padding: 20px 55px;
+}
+
+.hero-banner-content-wrapper h3 {
   color: red;
   text-align: center;
-  font-size: 2.5em;
-  margin-top: 3em;
+  font-size: 40px;
 }
 
-.about p {
+.hero-banner-content-wrapper p {
   text-align: center;
   color: white;
-  width: 75%;
-  margin: 0 auto;
-  font-size: 2em;
-  height: 9em;
+  font-size: 32px;
+  padding: 20px 50px 70px 50px;
 }
 
 
 @media only screen and (max-width: 768px){
-  .pop{
+  .title-content-wrapper{
     width:100%;
   }
-
-  .about p {
-    height: 14em;
+  .hero-banner-row h1, .background h2{
+    font-size: 64px;
   }
-}
-
-@media only screen and (max-width: 600px){
-.background{
-  height: 30em;
-}
-
-.background h1, .background h2{
-  font-size: 4em;
-}
-
-.pop{
-  top: 35%;
-}
-
-.about h3{
-  margin-top: 1em;
-  font-size: 2em;
-}
-
-.about p{
-  font-size: 1.5em;
-  height: 16em;
-}
 }

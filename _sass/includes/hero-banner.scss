@@ -46,11 +46,16 @@
   .title-content-wrapper{
     width:100%;
   }
-  .hero-banner-row h1, .background h2{
+  .hero-banner-row h1{
     font-size: 64px;
   }
   .hero-banner-content-wrapper p{
   font-size: 24px;
   padding: 20px 20px 40px 20px;
+  }
+}
+@media only screen and (max-width: 480px){
+.hero-banner-row h1{
+  font-size: 32px;
   }
 }

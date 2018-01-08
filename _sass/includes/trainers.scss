@@ -1,0 +1,51 @@
+.trainer-section{
+  clear: both;
+  color: red;
+  background-color: black;
+  padding: 0 30px 75px 30px;
+
+}
+.trainer-section-row{
+
+}
+.trainer-section-title-wrapper{
+  text-align: center;
+  color: red;
+}
+
+.trainer-container{
+  background-color: black;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: solid white 2px;
+}
+.trainer-section-media-wrapper{
+  width: 25%;
+  align-content: center;
+  display: flex;
+  float: left;
+  height: 300px;
+  justify-content: center;
+  padding: 2em;
+}
+
+
+.trainer-container:nth-child(even){
+    flex-direction: row-reverse;
+  }
+
+.trainer-container:nth-last-child(0){
+  padding: 0 0 25px 0;
+}
+
+.trainer-section-content-wrapper{
+  width: 75%;
+  align-content: center;
+  display: flex;
+  flex-flow: column;
+  float: left;
+  height: 300px;
+  justify-content: center;
+  padding: 36px;
+
+}

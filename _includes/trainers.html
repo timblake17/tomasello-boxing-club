@@ -1,0 +1,18 @@
+<section class="trainer-section">
+  <div class="trainer-section-title-wrapper">
+    <h2>Trainers</h2>
+  </div>
+  <div class="trainer-section-row">
+    {% for trainer in page.trainers %}
+    <div class="trainer-container">
+        <div class="trainer-section-media-wrapper">
+          <img src="{{ trainer.image }}" />
+        </div>
+        <div class="trainer-section-content-wrapper">
+          <h3>{{ trainer.name }}</h3>
+          <p>{{ trainer.description }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

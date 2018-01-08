@@ -36,9 +36,13 @@
 }
 
 @media only screen and (max-width: 768px){
-.black-container h3{
-  font-size: 48px;
+.open-daily-section-row-content-wrapper h3{
+  font-size: 40px;
 }
+
+.open-daily-section{
+  padding: 10px;
+  }
 
 .open-daily-section-row-media-wrapper{
   flex-direction: column;
@@ -46,9 +50,9 @@
 }
 
 .photo{
-  width: 80%;
+  width: 90%;
   }
-  
+
 .photo:nth-child(2){
   margin-top: 40px;
   }

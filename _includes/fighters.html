@@ -1,16 +1,16 @@
 <section class="member-section">
   <div class="member-section-title-wrapper">
-    <h2>Trainers</h2>
+    <h2>Fighters</h2>
   </div>
   <div class="member-section-row">
-    {% for trainer in page.trainers %}
+    {% for fighter in page.fighters %}
     <div class="member-container">
         <div class="member-section-media-wrapper">
-          <img src="{{ trainer.image }}" />
+          <img src="{{ fighter.image }}" />
         </div>
         <div class="member-section-content-wrapper">
-          <h3>{{ trainer.name }}</h3>
-          <p>{{ trainer.description }}</p>
+          <h3>{{ fighter.name }}</h3>
+          <p>{{ fighter.description }}</p>
         </div>
       </div>
     {% endfor %}

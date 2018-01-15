@@ -34,6 +34,21 @@
   border: red solid 2px;
   height: 320px;
 }
+.open-daily-section-location-wrapper{
+  padding: 0 0 50px 0;
+}
+.open-daily-section-location iframe{
+  width: 80%;
+  height: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+.open-daily-section-location-content-wrapper{
+  text-align: center;
+  color: red;
+  font-size: 24px
+}
 
 @media only screen and (max-width: 768px){
 .open-daily-section-row-content-wrapper h3{

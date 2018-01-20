@@ -1,0 +1,18 @@
+<section class="upcoming-events-section">
+  <div class="upcoming-events-section-row">
+    <div class="upcoming-events-section-title-wrapper">
+      <h2>UPCOMING EVENTS</h2>
+    </div>
+    {% for event in page.events %}
+    <div class="event-wrapper">
+      <h3>{{ event.title }}</h3>
+      <div class="upcoming-events-section-media-wrapper">
+        <img src="{{ event.image }}" alt="">
+      </div>
+      <div class="upcoming-events-section-content-wrapper">
+          <p>{{ event.description }}</p>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</section>

@@ -37,5 +37,12 @@ fighters:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra dui nec euismod venenatis. Quisque ut convallis magna. Donec leo diam, bibendum in auctor in, venenatis non dui. Mauris vitae ex in mi faucibus sodales vel in enim. Suspendisse efficitur massa dolor, in consectetur quam pretium nec. Etiam vulputate volutpat fermentum. Donec orci mi, blandit ut ipsum accumsan, accumsan consequat libero. Pellentesque vel eleifend ipsum.
     image: ./assets/img/Rocky.jpg
 
+events:
+  - title: Jan 26th at Melrose Memorial Hall
+    image: ./assets/img/fight1.jpg
+    description: Khiry Todd and Greg Vendetti are fighting January 28th at Melrose Memorial Hall. Call or Email for tickets
 
+  - title: Old Fight Placeholder
+    image: ./assets/img/fight2.jpeg
+    description: Old Fight Placeholder
 ---

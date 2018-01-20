@@ -1,6 +1,7 @@
 .featured-videos-section{
   background: black;
-  float: left
+  float: left;
+  padding: 0 0 30px 0;
 }
 
 .featured-videos-media-wrapper{
@@ -11,20 +12,20 @@
 .featured-videos-content-wrapper{
   width: 80%;
   margin: 0 auto;
+  padding: 0 30px;
 }
 
 .featured-videos-content-wrapper h2{
   text-align: center;
   color: red;
   font-size: 24px;
-  padding: 30px;
 }
 
 .featured-videos-content-wrapper p {
   color: white;
   text-align: center;
   font-size: 20px;
-  padding: 30px;
+  padding: 0 30px;
 }
 .video{
   width: 60%;

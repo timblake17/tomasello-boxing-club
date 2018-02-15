@@ -12,10 +12,9 @@ nav {
 }
 
 nav ul {
-  width: 95%;
+  width: 80%;
   padding: 0;
   margin: 0 auto;
-  overflow: auto;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -23,21 +22,45 @@ nav ul {
 
 nav ul li {
   color: red;
-  font-size: 25px;
-  float: left;
-  margin: 0 15px;
-  height: 1.5em;
-  border-bottom: red 2px solid;
+  font-size: 24px;
+  flex: 1;
+  text-align: center;
+  padding: 0 80px 10px 80px;
+}
+
+nav ul li a:hover {
+  background-color: red;
+  color: black;
+  border-bottom: solid black 2px;
 }
 
 nav ul li a {
+  display: block;
   color: red;
+  padding: 0 0 5px 0;
   text-decoration: none;
+  border-bottom: solid red 2px;
+  border-bottom-width: 50%;
 }
+
 
 nav ul span {
   color: red;
   font-size: 26px;
+}
+
+@media(max-width: 1024px){
+
+nav ul li {
+  padding: 0 50px 10px 50px;
+
+}
+}
+@media(max-width: 768px){
+
+nav ul li {
+  padding: 0 15px 10px 15px;
+}
 }
 
 @media(max-width: 680px){

@@ -45,4 +45,5 @@ events:
   - title: Old Fight Placeholder
     image: ./assets/img/fight2.jpeg
     description: Old Fight Placeholder
+
 ---

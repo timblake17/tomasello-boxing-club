@@ -30,12 +30,15 @@
   padding: 40px 0 100px 0
 }
 
-.photo{
-  width: 40%;
-  border: red solid 2px;
-  height: 320px;
-  background-color: grey;
+.open-daily-section-row-media-wrapper img{
+  object-position: top;
+  width: 32%;
+  height: 375px;
+  object-fit: cover;
 }
+
+
+
 .open-daily-section-location-wrapper{
   padding: 0 0 50px 0;
 }
@@ -73,4 +76,12 @@
 .photo:nth-child(2){
   margin-top: 40px;
   }
+
+.open-daily-section-row-media-wrapper img{
+    width: 80%;
+    margin-bottom: 5px;
+
+  }
+
+
 }

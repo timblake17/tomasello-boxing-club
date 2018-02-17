@@ -22,11 +22,11 @@ footer {
         &:last-of-type {
             float: right;
             h5 {
-                color: white;
+                font-size: 20px;
+                color: red;
             }
             li {
                 margin: 0 0 10px 0;
-                opacity: 0.75;
             }
             li, a {
                 clear: both;

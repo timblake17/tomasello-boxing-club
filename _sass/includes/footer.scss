@@ -2,9 +2,6 @@ footer {
     background-color: black;
     float: left;
     border-top: solid 2px red;
-
-    @media only screen and (max-width: 768px) {
-}
     width: 100%;
     section {
         float: left;
@@ -12,12 +9,12 @@ footer {
         @media only screen and (max-width: 768px) {
             width: 100%;
         }
-
-        &:first-of-type {
-            h5 {
-                color: red;
-                font-size: 16px;
-            }
+        &:first-of-type{
+          padding-top: 50px;
+          h5{
+            color: red;
+            font-size: 18px
+          }
         }
         &:last-of-type {
             float: right;
@@ -37,11 +34,11 @@ footer {
         }
     }
     h5 {
-        margin: 0 0 1em 0;
+        margin: 0 0 16px 0;
         text-transform: uppercase;
     }
     ul {
-        margin: 0 0 1em 0;
+        margin: 0 0 16px 0;
         padding: 0;
     }
     li {
@@ -53,7 +50,6 @@ footer {
         }
     }
     .fa, i.fa {
-        font-size: 2em;
         margin-right: 10px;
     }
 

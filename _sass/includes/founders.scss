@@ -14,12 +14,24 @@
   padding: 0 0 50px 0;
 }
 
-.founder-pic{
+.founder-joe{
   width: 60%;
   border: red solid 2px;
   margin: 0 auto;
   height: 320px;
-  background-color: grey;
+  background-image: url("../assets/img/joe-fighters.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.founder-stephen{
+  width: 60%;
+  border: red solid 2px;
+  margin: 0 auto;
+  height: 320px;
+  background-image: url("");
+  background-size: cover;
+  background-position: top;
 }
 
 .founder-section-media-wrapper h2{

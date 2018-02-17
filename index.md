@@ -38,12 +38,12 @@ fighters:
     image: ./assets/img/Rocky.jpg
 
 events:
-  - title: Jan 26th at Melrose Memorial Hall
+  - title: Jan 26th at Melrose Memorial Hall (over)
     image: ./assets/img/fight1.jpg
     description: Khiry Todd and Greg Vendetti are fighting January 28th at Melrose Memorial Hall. Call or Email for tickets
 
-  - title: Old Fight Placeholder
+  - title: October 28th at Foxwoods Casino (over)
     image: ./assets/img/fight2.jpeg
-    description: Old Fight Placeholder
+    description: See Khiry Todd fight January 28th at Foxwoods Casino. Call or email for tickets.
 
 ---

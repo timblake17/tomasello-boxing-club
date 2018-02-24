@@ -7,7 +7,8 @@ title: Tomasello Boxing Club
 
 trainers:
   - name: Joey Ricciardi
-    description: Joey Ricciardi got his start in boxing in 1979 training at The New Garden Gym in Boston’s north station on Causeway street across the street from the old Boston Garden. Joey was trained by Gabe Lamarca -Mira Al Clemente - Bill Ebel. When The New Garden Gym closed Joey went to train at First Somerville Boxing club on Joy Street in Somerville. In 1982 Joey won the title Diamond Belt Champion and kept fighting in the Boston area  & lynns Harbor House on monday nights. Joey has been training his own fighters many years and has trained both amateur and professional champions. He focuses on old school training & fundamentals to build the style around the fighter and not build the fighter around the style!
+    description: Joey Ricciardi got his start in boxing in 1979 training at the new garden gym in Boston's north station on Causeway st across from old Boston Garden was trained by Gabe Lamarca -Mira Al Clemente - Bill Ebel. When new garden closed went to train at first somerville boxing club on Joy st. somerville in 1982 was Diamond Belt Champion fought mostly in Boston area  & Lynns Harbor House on Monday nights in summer time was a fixture for fighters to get fights. He has been training fighters for many years and has trained amateur & professional champions focus old school training & fundamentals builds fighters style around the fighter not the fighter around the style !
+
 
     image: ./assets/img/joe-bio.png
 

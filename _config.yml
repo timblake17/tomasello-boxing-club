@@ -17,7 +17,7 @@ title: Jekyll Starter
 email: dev@resilientcoders.org
 description: >- # this means to ignore newlines until "baseurl:"
   This is the starter description for the jekyll starter files.
-url: "http://jr13oxing.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://jr13boxing.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: jekyllrb
 github_username:  jekyll
